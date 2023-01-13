@@ -25,7 +25,7 @@
             </li>
         @endforeach
         <li class="app_item_more">
-            <a href="/los-mejores-tonos-de-llamada/">Mehr sehen ...</a>
+            <a href="/top-5-klingeltone/">Mehr sehen ...</a>
         </li>
     </ul>
 </div>
@@ -61,7 +61,7 @@
         @endforeach
 
         <li class="app_item_more">
-            <a href="/tonos-de-llamada-populares/">Mehr sehen ...</a>
+            <a href="/beste-klingeltone/">Mehr sehen ...</a>
         </li>
     </ul>
 </div>

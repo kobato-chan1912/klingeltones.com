@@ -99,10 +99,8 @@
                                         </a>
                                     </li>
                                 </ul>
-                <p>Copyright © 2022 by <a href="/">{{env("WEB_NAME")}}</a></p>
+                <p>Copyright © <script>document.write(new Date().getFullYear())</script> by <a href="/">{{env("WEB_NAME")}}</a></p>
             </div>
-
-
         </div>
     </div>
 

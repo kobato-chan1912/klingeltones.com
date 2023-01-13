@@ -3,7 +3,7 @@
 
 @include("webpage.layouts.head",
 [
-    "title" => "Top Klingeltöne kostenlos - Klingelton downloaden 2022",
+    "title" => "Klingeltöne 2023 |Herunterladen Kostenlose Klingeltöne - Klingeltones",
     "og_des" => "Herunterladen top klingeltöne kostenlos. Hits als klingelton kostenlos für Android und iPhone. Klingeltöne fürs handy in formaten von mp3 und m4r. Klingeltöne kostenlos charts 2022.",
     "og_title" => "Top Klingeltöne kostenlos - Klingelton downloaden 2022"
 ])
@@ -35,10 +35,10 @@
                 $("#btnViewMore").on("click", function (e) {
                     e.preventDefault();
                     $(".page-description").toggleClass("summary");
-                    if ($(this).text() == "Lee mas") {
-                        $(this).text("Esconder");
+                    if ($(this).text() == "Mehr sehen") {
+                        $(this).text("Beitrag kürzen");
                     } else {
-                        $(this).text("Lee mas");
+                        $(this).text("Mehr sehen");
                     };
                 });
             });
@@ -143,10 +143,10 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="col-md-12">
+            <div class="col-xs">
                 <div class="box">
                     &nbsp; &nbsp;<a href="{{route("downloadSongs")}}">
-                        <h2 class="title"><i class="fa fa-music" aria-hidden="true"></i> Neueste Klingeltöne
+                        <h2 class="title"><i class="fa fa-music" aria-hidden="true"></i> TOP 5 KLINGELTÖNE
                         </h2>
                     </a>
                     <ul class="list_apps">
@@ -198,7 +198,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-12" style="padding-top: 14px;">
+            <div class="col-xs" style="padding-top: 14px;">
                 <div class="box">
                     &nbsp; &nbsp;<a href="{{route("popularSongs")}}">
                         <h2 class="title"><i class="fa fa-music" aria-hidden="true"></i> Beste Klingeltöne</h2>
@@ -262,14 +262,13 @@
                 <div id="container-cfq">
                     <div class="page-description summary">
                         <h1 class="gt-title page-title"><i class="fa fa-bullhorn" aria-hidden="true">
-                                Descargar Tono
-                                de llamada 2022 mp3 gratis para tel&eacute;fonos
+                                Laden Sie Klingelton <script>document.write(new Date().getFullYear())</script> mp3 kostenlos für Handys herunter
                             </i></h1>
                         <div class="entry-content">
                             @php echo $post @endphp
                         </div>
                         <div class="button">
-                            <button type="button" id="btnViewMore">Lee mas</button>
+                            <button type="button" id="btnViewMore">Mehr sehen</button>
                         </div>
                     </div>
                     &nbsp; &nbsp; &nbsp; &nbsp;

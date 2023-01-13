@@ -206,7 +206,6 @@
                                 </li>
                             </ul>
 
-                            <div class="mxh"><a class="share fb" href="https://www.facebook.com/sharer.php?u={{URL::current()}}" rel="nofollow" target="_blank">FaceBook</a><a class="share tw" href="https://twitter.com/home?status={{URL::current()}}" rel="nofollow" target="_blank" title="share to twitter">Twitter</a><br></div>
 
                         </div>
 

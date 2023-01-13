@@ -63,17 +63,17 @@
         <div class="container">
 
             <div class="rowx" style="margin-top: 25px;">
-                <div class="col-md-12">
+                <div class="">
                     <div class="box">
 
                         <div class="title single-breadcrumb">
-                            <p id="breadcrumbs">
+                            <p id="breadcrumbs" style="font-size: 10pt;">
                         <span>
                             <span>
                                 <a href="/">Home</a> »
                                 <span> <a href="/{{$category->category_slug}}">{{$category->category_name}}</a>                                    »
                                     <a href="/{{$song->slug}}">{{$song->title}}</a> »
-                                    <span class="breadcrumb_last" aria-current="page">Download</span>
+                                    <span class="breadcrumb_last" aria-current="page"> Herunterladen</span>
                                 </span>
                             </span>
                         </span>
@@ -227,7 +227,7 @@
 
 
                                 <div class="box-cross mb-20">
-                                    <div class="bc-title">{{$song->title}} Tonos de llamada</div>
+                                    <div class="bc-title">{{$song->title}} Klingelton</div>
                                     <div class="bc-body wrap-box-mod">
                                         <div class="wrapcontent">
 
