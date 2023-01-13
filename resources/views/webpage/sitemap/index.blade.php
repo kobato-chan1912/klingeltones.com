@@ -19,7 +19,7 @@
         <url>
             <loc>{{env("APP_URL")}}/{{$song->slug}}</loc>
             <lastmod>{{date('c', strtotime($song->created_at))}}</lastmod>
-            <xhtml:link rel="alternate" href="{{env("APP_URL")}}/{{$song->slug}}"/>
+            <xhtml:link rel="alternate" href="{{env("WEBPAGE_URL")}}/{{$song->slug}}"/>
         </url>
     @endforeach
 </urlset>
