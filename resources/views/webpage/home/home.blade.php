@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="de">
 
 @include("webpage.layouts.head",
 [
-    "title" => "Klingeltöne 2023 |Herunterladen Kostenlose Klingeltöne - Klingeltones",
+    "title" => "Klingeltöne 2023 | Herunterladen Kostenlose Klingeltöne - Klingeltones",
     "og_des" => "Herunterladen top klingeltöne kostenlos. Hits als klingelton kostenlos für Android und iPhone. Klingeltöne fürs handy in formaten von mp3 und m4r. Klingeltöne kostenlos charts 2022.",
-    "og_title" => "Top Klingeltöne kostenlos - Klingelton downloaden 2022"
+    "og_title" => "Klingeltöne 2023 |Herunterladen Kostenlose Klingeltöne - Klingeltones"
 ])
 
 <body>
