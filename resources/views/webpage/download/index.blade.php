@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="de">
 @php $category = \App\Models\Category::where("id", $song->category_id)->first() @endphp
 
 @include("webpage.layouts.head",
