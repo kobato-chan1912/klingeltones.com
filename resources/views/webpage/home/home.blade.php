@@ -294,7 +294,8 @@
     </div>
 </section>
 @include("webpage.layouts.footer")
-
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63e379abd69ec2ff"></script>
 </body>
 
 </html>
