@@ -30,8 +30,8 @@ class WebPageCategoryController extends Controller
         $songs = Song::orderBy("id", "desc")->where("display", 1)->paginate(10);
         return $this->loadView($songs,
             "Neueste Klingeltöne",
-            "Top Klingeltöne - Klingelton downloaden ". Carbon::today()->year,
-            "Herunterladen top klingeltöne. Hits als klingelton für Android und iPhone. Klingeltöne fürs handy in formaten von mp3 und m4r. Klingeltöne charts .". Carbon::today()->year);
+            "Neueste Klingeltöne - Kostenlose Klingeltöne herunterladen",
+            "Neueste Klingeltöne für Handys - Laden Sie die täglich angesagten Klingeltöne kostenlos mit der schnellsten Geschwindigkeit für Ihr Telefon herunter");
     }
 
 
@@ -48,8 +48,8 @@ class WebPageCategoryController extends Controller
     {
         $songs = Song::orderBy("downloads", "desc")->where("display", 1)->paginate(10);
         return $this->loadView($songs, "Neueste Klingeltöne",
-            "Klingeltöne 2022 - Klingelton ändern gratis",
-            "Die Sammlung der besten klingeltöne wird regelmäßig aktualisiert. Laden Sie Klingelton für Ihr Handy herunter.",
+            "Top 5 Klingeltöne - Beste Klingeltöne kostenloser Download",
+            "Sammlung der 5 besten Klingeltöne - Kostenloser Download der heißesten Songs, die gesucht wurden, um sie als Klingeltöne für Ihr geliebtes Telefon einzustellen",
         );
     }
 
@@ -91,8 +91,8 @@ class WebPageCategoryController extends Controller
     public function losMejores(){
         $songs  = Song::orderBy("downloads", "desc")->where("display", 1)->paginate(10);
         return $this->loadView($songs, "Neueste Klingeltöne",
-            "Klingeltöne 2022 - Klingelton ändern gratis",
-            "Die Sammlung der besten klingeltöne wird regelmäßig aktualisiert. Laden Sie Klingelton für Ihr Handy herunter.",
+            "Top heruntergeladene Klingeltöne heute - Beste Klingeltöne",
+            "Beste Klingeltöne - Die Sammlung der am häufigsten heruntergeladenen Klingeltöne. Kostenloser und schnellster Download mit vielen Genres zur Auswahl",
         );
     }
     public function search(Request $request, $search){
